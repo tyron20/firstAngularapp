@@ -2,11 +2,11 @@
   <div class="col-sm-6">
     <ul>
       <h1>QUOTE OF THE DAY!!!</h1>
-      <li *ngFor="let quote of quote; let i = index">
-        author:{{ quote.author }} <br />
-        sender:{{ quote.sender }} <br />
-        quote:{{ quote.quote }} <br />
-        votes:{{ votescount }}
+      <li *ngFor="let quote of quotes; let i = index">
+          {{ quote.author }} <br />
+        {{ quote.sender }} <br />
+        {{ quote.comment}} <br />
+        {{ votescount }}
         <button class="btn btn-success" (click)="functionlike()">like</button>
         <button class="btn btn-primary" (click)="functiondislike()">
           dislike

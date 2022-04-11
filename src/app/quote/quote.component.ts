@@ -8,7 +8,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css'],
 })
 export class QuoteComponent implements OnInit {
-  quote: Quote[] = [
+  quotes: Quote[] = [
     
       new Quote('Power is not alluring to pure minds.', 'tyron', 'Thomas Jefferson '),
       new Quote('All we have to decide is what to do with the time that is given us.', 'tyron','Charles Dickens '),
@@ -16,11 +16,11 @@ export class QuoteComponent implements OnInit {
       new Quote( 'Not all those who wander are lost.', 'tyron','A.A. Milne',),
 
   ];
-addNewQuote(quote:any){
-  let qLength = this.quote.length;
+addNewQuote(quote:Quote){
+  let qLength = this.quotes.length;
   // quote.id= qLength+1;
   // quote.creationDate=new Date(quote.creationDate)
-  this.quote.push(quote)
+  this.quotes.push(quote)
 }
   votescount: number = 0;
 
@@ -32,8 +32,8 @@ addNewQuote(quote:any){
     this.votescount--;
   }
 
-  functiondelete(i: any) {
-    this.quote.pop();
+  functiondelete(index: number) {
+    this.quotes.pop();
   }
   constructor() {}
 
