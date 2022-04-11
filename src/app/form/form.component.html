@@ -1,0 +1,26 @@
+  
+    <form (ngSubmit)="submitQuote()" #form="ngForm">
+
+      <div class="form group">
+        <label for="firstName">Author:</label>
+        <input id="firstName" type="text" class="forum-control" />
+      </div>
+      <br />
+      <div class="form group">
+        <label for="firstName">Name:</label>
+        <input id="firstName" type="text" class="forum-control" />
+      </div>
+      <br />
+      <div class="comment">
+        <label for="comment">Quote:</label>
+        <textarea
+          name=""
+          id="comment"
+          cols="30"
+          rows="10"
+          class="form-control"
+        ></textarea>
+      </div>
+
+      <button class="btn btn-info">Submit</button>
+    </form>

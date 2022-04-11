@@ -1,0 +1,9 @@
+.container form {
+  text-align: center;
+}
+.form {
+  text-align: left; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

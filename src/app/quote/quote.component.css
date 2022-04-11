@@ -1,0 +1,19 @@
+.container-fluid .col-sm-6 h1 {
+  text-align: center;
+}
+.container-fluid {
+  background-color: #00203fff;
+  color: #adefd1ff;
+  display: flex;
+
+}
+
+.container form {
+  text-align: center;
+}
+.form {
+  text-align: left; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

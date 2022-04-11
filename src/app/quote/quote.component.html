@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <div class="col-sm-6">
+    <ul>
+      <h1>QUOTE OF THE DAY!!!</h1>
+      <li *ngFor="let quote of quote; let i = index">
+        author:{{ quote.author }} <br />
+        sender:{{ quote.sender }} <br />
+        quote:{{ quote.quote }} <br />
+        votes:{{ votescount }}
+        <button class="btn btn-success" (click)="functionlike()">like</button>
+        <button class="btn btn-primary" (click)="functiondislike()">
+          dislike
+        </button>
+        <br /><br /><button class="btn btn-danger" (click)="functiondelete(i)">
+          DELETE QUOTE
+        </button>
+      </li>
+    </ul>
+  </div>
+  <!-- <br /> -->
+
+  <div class="col-sm-6 form">
+    <app-form (addQuote)="addNewQuote($event)"></app-form>
+  </div>
+</div>
