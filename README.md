@@ -1,27 +1,45 @@
-# QuoteApp
+## QUOTE-App
 
+### PROJECT DESCRIPTION
 
+This project presents the user with some quotes and it enables them to upvote or downvote and also delete the quote if need be.A user can also add a quote,the author and the sender. This is a simple project that contains HTML,CSS,JAVASCRIPT AND TYPESCRIPT.
 
-## Development server
+### 💁 AUTHOR'S INFORMATION
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+I am Tyron Njugna curently studying Software Development at Moringa School .
 
-## Code scaffolding
+### NAME OF CONTRIBUTORS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+the website was built only by the author
 
-## Build
+### 📌 TECHNOLOGY USED
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The technologies are ;
 
-## Running unit tests
+🔹 HTML
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+🔹 CSS
 
-## Running end-to-end tests
+🔹 BOOSTRAP
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+🔹 JAVASCRIPT
 
-## Further help
+🔹 TYPESCRIPT
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### BDD
+
+This is a simple project that contains HTML,CSS,BOOSTRAP,JAVASCRIPT and TYPESCRIPT helps the user to delete,upvote or downvote,add and submit.
+
+### LINK TO VIEW SITE
+
+### 📞 CONTANCT INFORMATION
+
+Find me at tyronnjuguna1@gmail.com.
+
+### CREATED
+
+2022
+
+## LICENCE AND COPYRIGHT
+
+MIT Copyright (c) 2022 Tyron Njuguna
