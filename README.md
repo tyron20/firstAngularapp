@@ -31,6 +31,7 @@ The technologies are ;
 This is a simple project that contains HTML,CSS,BOOSTRAP,JAVASCRIPT and TYPESCRIPT helps the user to delete,upvote or downvote,add and submit.
 
 ### LINK TO VIEW SITE
+https://tyron20.github.io/firstAngularapp/
 
 ### 📞 CONTANCT INFORMATION
 
