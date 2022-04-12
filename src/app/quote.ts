@@ -6,6 +6,7 @@ export class Quote {
   public sender: string,
   public author: string,
   // public votes: number,
+  public ndate: Date,
   ){}
    
 }

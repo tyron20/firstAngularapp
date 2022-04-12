@@ -23,6 +23,18 @@
     />
   </div>
   <br />
+  <div class="form group">
+    <label for="author">date:</label>
+    <input
+      id="date"
+      type="date"
+      class="forum-control"
+      name="date"
+      [(ngModel)]="newQuote.ndate"
+      #date="ngModel"
+    />
+  </div>
+  <br />
   <div class="comment">
     <label for="comment">Quote:</label>
     <textarea

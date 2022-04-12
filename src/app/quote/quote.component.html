@@ -3,10 +3,12 @@
     <ul>
       <h1>QUOTE OF THE DAY!!!</h1>
       <li *ngFor="let quote of quotes; let i = index">
-          {{ quote.author }} <br />
+        {{ quote.author }} <br />
         {{ quote.sender }} <br />
-        {{ quote.comment}} <br />
+        {{ quote.comment }} <br />
+        {{ quote.ndate | datepipe }} <br />
         {{ votescount }}
+
         <button class="btn btn-success" (click)="functionlike()">like</button>
         <button class="btn btn-primary" (click)="functiondislike()">
           dislike
